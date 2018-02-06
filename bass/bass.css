@@ -1,0 +1,120 @@
+html, body {
+  background-color: #161718;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+body {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  line-height: 1.5;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.jumbotron {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: transparent;
+  height: 560px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.header a {
+  padding: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.header li {
+  display: inline-block;
+  margin-left: 13px;
+  margin-top: 40px;
+}
+.header .btn-default {
+  border: 0px;
+  border-radius: 0;
+  padding: 8px 30px;
+  background-color: #ff003d;
+}
+.main {
+  color: #fff;
+}
+.main h1{
+  padding-top: 60px;
+}
+
+div {
+  display: block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.supporting-1, .supporting-2, .supporting-3, .supporting-4 {
+  padding: 70px 30px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.supporting-2 {
+  background-color: #000;
+}
+
+.supporting-4 {
+  background: url("feature.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  height: 400px;
+}
+
+.supporting-4 .container {
+  margin-top: 80px;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0 35px 0
+}
+
+.footer h3 {
+  font-size: 15px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.footer a {
+  color: #aaa;
+  font-size: 13px;
+  display: inline-block;
+  padding: 5px 0;
+}
